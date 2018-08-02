@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import './Header.css'
+import './header.css'
 
 const Header = ({ siteTitle }) => (
 <div className="Header">
@@ -11,6 +11,7 @@ const Header = ({ siteTitle }) => (
     <Link to="/resume">Resume</Link>
     <Link to="/contact">Contact</Link>
   </div>
+  
 </div>
 )
 
